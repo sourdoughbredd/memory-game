@@ -1,5 +1,5 @@
 import "../styles/CardContainer.css";
-import Card from "./Card";
+import Card from "./Card.jsx";
 
 export default function CardContainer({ cards, cardOnClick }) {
   return (

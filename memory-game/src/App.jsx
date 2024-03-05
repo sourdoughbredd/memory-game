@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Score from "./components/Score";
-import CardContainer from "./components/CardContainer";
+import Score from "./components/Score.jsx";
+import CardContainer from "./components/CardContainer.jsx";
 import fetchNPokemonByColor from "./fetchData.js";
 
 export default function App() {
