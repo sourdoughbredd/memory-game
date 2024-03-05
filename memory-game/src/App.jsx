@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Score from "./components/Score";
 import CardContainer from "./components/CardContainer";
-import fetchNPokemonByColor from "./fetchData";
+import fetchNPokemonByColor from "./fetchData.js";
 
 export default function App() {
   let [pokemon, setPokemon] = useState([]);
