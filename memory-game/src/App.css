@@ -4,3 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
+
+.memory-game-app {
+  max-width: 800px;
+}
